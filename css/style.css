@@ -1,0 +1,591 @@
+html
+{
+    height:100%;
+    font-size:2.0vw;
+}
+
+body
+{
+    width:100%;
+    height:100%;
+
+}
+
+html *
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-style:normal;
+    font-weight:normal;
+    list-style: none;
+    
+}
+
+#main
+{
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+    width:100%;
+
+}
+
+header
+{
+    height:20vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5%;
+    background-color:white;
+
+}
+
+h1
+{
+    font-weight:bold;
+    font-size:4.0rem;
+}
+
+#navBar
+{
+    display:none;
+}
+
+#navMenuButton
+{
+    padding-top:1%;
+    padding-bottom:1%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    height:9vw;
+    width:9vw;
+    border:solid;
+}
+
+.barre
+{
+    width:60%;
+    border-top:solid black;
+}
+
+#navMenuMobile
+{
+    flex:1;
+    display:none;
+    background-color:hsl(270, 9%, 17%);
+    background-image:url("../assets/images/bg-pattern-mobile-nav.svg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:bottom right;
+    padding:5%;
+    padding-top:15%;
+}
+
+
+
+#navMenuMobile li
+{
+    text-align:center;
+    margin-bottom:17%;
+    font-size:3.0rem;
+    font-weight:bold;
+    color:white;
+    
+    
+}
+
+#introduction
+{
+    display:flex;
+    flex-direction:column;
+    
+    height:300vw;
+    background-image:
+    url("../assets/images/image-intro-mobile.jpg")
+    ,url("../assets/images/bg-pattern-intro-left-mobile.svg")
+    ,url("../assets/images/bg-pattern-intro-right-mobile.svg")
+    ,linear-gradient(to bottom,hsl(256, 26%, 20%),hsl(256, 26%, 20%) 85%,white 85%,white);
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size:100%,40%,40%,cover;
+    background-position:left top ,0% 45%,100% 105% ,left top;
+    text-align:center;
+    padding:10%;
+    padding-top:140%;
+
+}
+
+#introduction h2
+{
+    color:white;
+    font-size:6rem;
+    font-weight:bold;
+    margin-bottom:7%;
+}
+
+#introduction p
+{
+    color:hsl(0, 0%, 98%);
+    font-size:2.3rem;
+    line-height:1.5em;
+    margin-bottom:10%;
+}
+
+#viewPlansButton
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:solid white;
+    border-width:5px;
+    color:white;
+    width:40%;
+    height:10vw;
+    margin:auto;
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+#sellingPointSection
+{
+    display:flex;
+    flex-direction:column;
+    padding:8%;
+}
+
+#sellingPointSection h2
+{
+    margin-bottom:25%;
+    font-size:6.0rem;
+    text-align:center;
+    font-weight:bold;
+}
+
+.qualityCard
+{
+    width:100%;
+}
+
+.icon
+{
+    margin:auto;
+    width:30%;
+    padding-top:30%;
+    border-radius:50%;
+    background-color:hsl(273, 4%, 51%);
+    margin-bottom:10%;
+}
+
+.qualityCard h3
+{
+    margin-bottom:5%;
+    color:black;
+    font-size:3.0rem;
+    font-weight:bold;
+    text-align:center;
+}
+
+.qualityCard p
+{
+    margin-bottom:20%;
+    text-align:center;
+    line-height:4.0rem;
+    font-size:2.4rem;
+    color:hsl(273, 4%, 51%);
+}
+
+.icon
+{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+}
+
+#speedIcon
+{
+    background-image:url("../assets/images/icon-snappy-process.svg");
+}
+
+#priceIcon
+{
+    background-image:url("../assets/images/icon-affordable-prices.svg");
+}
+
+#peopleIcon
+{
+    background-image:url("../assets/images/icon-people-first.svg");
+}
+
+#processInformation
+{
+    background-color:hsl(256, 26%, 20%);
+    background-image:url("../assets/images/bg-pattern-how-we-work-mobile.svg");
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-position:100% 0%;
+    color:white;
+    padding:10%;
+    height:80vw;
+
+    margin-bottom:40%;
+
+}
+
+#processInformation h2
+{
+
+    font-size:4.2rem;
+}
+
+#processButton
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:solid white;
+    border-width:5px;
+    color:white;
+    width:60%;
+    height:10vw;
+    margin:auto;
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+footer
+{
+    display:flex;
+    flex-direction:column;
+    background-color:hsl(0, 0%, 98%);
+    padding:10%;
+    
+}
+
+footer h2
+{
+    margin:auto;
+    text-align:center;
+    font-weight:bold;
+    font-size:4.0rem;
+
+}
+
+#socialMedia
+{
+    display:flex;
+    width:50%;
+    height:5vw;
+}
+
+#footerInformation
+{
+    border-top:solid hsl(273, 4%, 51%);
+    padding:5%;
+    padding-top:10%;
+
+}
+
+.informationSection
+{
+    margin:auto;
+    margin-bottom:10%;
+
+}
+
+.informationSection h3
+{
+    font-size:1.7rem;
+    color:hsl(273, 4%, 51%);
+    text-align:center;
+    margin-bottom:10%;
+    font-weight:bold;
+
+}
+
+.informationSection li
+{
+    margin-bottom:5%;
+    font-size:1.5rem;
+    text-align:center;
+    font-weight:bold;
+
+}
+
+@media screen and (min-width:700px)
+{
+    html 
+    {
+        font-size:1.1vw;
+    }
+
+    header
+    {
+        margin:auto;
+        height:4vw;
+        width:65%;
+        padding:0px;
+       
+   }
+
+   h1
+   {
+       font-size:1.5rem;
+   }
+
+   #navMenuButton
+   {
+       display:none;
+   }
+
+   #navBar
+   {
+       
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       width:40%;
+       
+
+   }
+
+   #navBar ul
+   {
+       
+       display:flex;
+       width:100%;
+       color:hsl(273, 4%, 51%);
+       justify-content:space-between;
+       align-items:center;
+       font-weight:bold;
+   }
+
+   #navBar li
+   {
+    font-size:0.9rem;
+    font-weight:bold;
+
+   }
+
+   #introduction
+   {
+
+    height:50vw;
+    padding:0px;
+    padding-top:5%;
+    
+    background-image:
+    url("../assets/images/image-intro-desktop.jpg")
+    ,url("../assets/images/bg-pattern-intro-left-desktop.svg")
+    ,url("../assets/images/bg-pattern-intro-right-desktop.svg")
+    ,linear-gradient(to bottom,hsl(256, 26%, 20%),hsl(256, 26%, 20%) 75%,white 75%,white);
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size:32%,15%,25%,cover;
+    background-position:77% 5vw ,-2% 150%,top right ,left top; 
+   }
+
+   #introductionText
+   {
+       
+       width:65%;
+       margin:auto;
+       height:100%;
+       display:block;
+      
+      
+   }
+
+   
+
+   #introductionText *
+   {
+       text-align:left;     
+       margin-bottom:0px;
+   }
+   
+   .lineBorder
+   {
+       width:15%;
+       border-top:solid grey; 
+   }
+
+   #introductionText h2 
+   {
+        width:45%;
+       margin-top:7%;
+       line-height:4.0rem;
+       font-size:3.9rem;
+       margin-bottom:3%;
+       
+   }
+
+   #introductionText p 
+   {
+       width:50%;
+       font-size:1.0rem;
+       margin-bottom:3%;
+       
+   }
+
+   #introductionText #viewPlansButton 
+   {
+       border-width:2px;
+       width:10vw;
+       height:3vw;
+       font-size:0.9rem;
+       margin:0px;
+       margin-bottom:3%;
+       
+   }
+
+   #sellingPointSection
+   {
+       padding:0px;
+       width:65%;
+       margin:auto;
+       
+   }
+
+   #sellingPointSection h2 
+   {
+       margin:0px;
+       margin-top:5%;
+       margin-bottom:10%;
+       text-align:left;
+       font-size:4.0rem;
+   }
+
+   #quality
+   {
+       display:flex;
+       justify-content:space-between;
+       margin-bottom:10%
+   }
+
+   .qualityCard
+   {
+       text-align:left;
+       width:30%;
+   }
+
+   .icon
+   {
+       margin:0;
+      
+   }
+
+   .qualityCard h3
+   {
+       margin-top:10%;
+       margin-bottom:10%;
+       text-align:left;
+       font-size:2.0rem;
+       
+   }
+
+   .qualityCard p
+   {
+       font-size:1.2rem;
+       text-align:left;
+       line-height:1.5rem;
+   }
+
+   #processInformation
+   {
+      background-image:url("../assets/images/bg-pattern-how-we-work-desktop.svg");
+      background-repeat:no-repeat;
+      background-size:55%;
+      margin-bottom:10%;
+       padding:8%;
+       height:20vw;
+       display:flex;
+       justify-content:space-between;
+       align-items:center;
+   }
+
+   #processInformation h2 
+   {
+       width:60%;
+       margin:0px;
+       font-size:3.0rem;
+   }
+
+   #processButton
+   {
+      margin:0px;
+       width:10vw;
+       height:4vw;
+       border-width:2px;
+       font-size:1.0rem;
+   }
+
+   footer 
+   {
+       background-image:url("../assets/images/bg-pattern-footer-desktop.svg");
+       background-size:40%;
+       background-repeat:no-repeat;
+       background-position:left top;
+       padding:0px;
+       height:25vw;
+   }
+
+   #topBand
+   {
+       margin:auto;
+       width:65%;
+       height:7vw;
+       display:flex;
+       justify-content:space-between;
+       align-items:center;
+   }
+
+   #topBand h2 
+   {
+       margin:0px;
+       font-size:2.0rem;
+   }
+
+   #footerInformation
+   {
+     padding:0px;
+     padding-top:3%;
+     margin:auto;
+     width:65%; 
+     display:flex;
+     justify-content:space-between;
+     
+     
+   }
+
+   .informationSection
+   {
+       margin:0px;
+       width:20%;
+       
+       
+   }
+
+   .informationSection h3 
+   {
+       font-size:1.0rem;
+       text-align:left;
+       margin:0px;
+       margin-bottom:15%;
+   }
+
+   .informationSection li 
+   {
+       font-size:0.8rem;
+       text-align:left;
+       margin:0px;
+       margin-bottom:7%;
+   }
+
+}
