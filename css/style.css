@@ -486,8 +486,7 @@ footer h2
        margin-top:10%;
        margin-bottom:10%;
        text-align:left;
-       font-size:2.0rem;
-       
+       font-size:1.8rem;
    }
 
    .qualityCard p
@@ -538,12 +537,14 @@ footer h2
 
    #topBand
    {
+       
        margin:auto;
        width:65%;
-       height:7vw;
+       height:6vw;
        display:flex;
        justify-content:space-between;
        align-items:center;
+       margin-bottom:0%;
    }
 
    #topBand h2 
@@ -554,9 +555,11 @@ footer h2
 
    #footerInformation
    {
+       
      padding:0px;
      padding-top:3%;
      margin:auto;
+     margin-top:0%;
      width:65%; 
      display:flex;
      justify-content:space-between;
